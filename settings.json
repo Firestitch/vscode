@@ -1,0 +1,50 @@
+{
+  "php.validate.enable": false,
+  "php.suggest.basic": false,
+  "php.problems.scope": "all",
+  "php.problems.exclude": {
+    "backend/vendor/**": true,
+    "deploy/vendor/**": true
+  },
+  "php.format.codeStyle": "K&R",
+  "php.format.rules.arrayInitializersNewLineAfterLastElement": true,
+  "php.format.rules.arrayInitializersNewLineBeforeFirstElement": true,
+  "php.format.rules.spaceAfterCast": false,
+  "php.format.rules.arrayInitializersWrap": "on_every_item",
+  "php.format.rules.callParametersWrap": "on_every_item",
+  "php.stubs": [
+    "*",
+    "zip",
+    "zlib",
+    "com",
+    "pgsql"
+  ],
+  "[php]": {
+    "editor.defaultFormatter": "DEVSENSE.phptools-vscode",
+    "editor.formatOnSave": true,
+    "editor.wordSeparators": "-`~!@#%^&$*()=+[{]}\\|;:'\",.<>/?",
+  },
+  "html.format.wrapAttributes": "preserve",
+  "files.exclude": {
+    "framework/Refactor/**": true,
+    "data/temp/**": true,
+    "node_modules/**/*.php": true
+  },
+  "search.exclude": {
+    "utility/assets/**": true,
+    "backend/vendor/**": true
+  },
+  "git.ignoreLimitWarning": true,
+  "angular.view-engine": false,
+  "[typescript]": {
+    "editor.formatOnSave": true,
+  },
+  "eslint.workingDirectories": [
+    "frontend"
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "terminal.integrated.cwd": "${workspaceFolder}/frontend"
+}
