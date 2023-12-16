@@ -38,6 +38,7 @@
   "angular.view-engine": false,
   "[typescript]": {
     "editor.formatOnSave": true,
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
   },
   "eslint.workingDirectories": [
     "frontend"
