@@ -5,6 +5,7 @@
     "Firestitch.snippets",
     "DEVSENSE.intelli-php-vscode",
     "ms-vscode.vscode-typescript-next",
-    "DEVSENSE.phptools-vscode"
+    "DEVSENSE.phptools-vscode",
+    "mikerhyssmith.ts-barrelr"
   ]
 }
