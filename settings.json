@@ -12,6 +12,7 @@
   "php.format.rules.spaceAfterCast": false,
   "php.format.rules.arrayInitializersWrap": "on_every_item",
   "php.format.rules.callParametersWrap": "on_every_item",
+  "php.format.rules.addCommaAfterLastArrayElement": true,
   "php.stubs": [
     "*",
     "zip",
