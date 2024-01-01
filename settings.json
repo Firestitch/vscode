@@ -13,6 +13,7 @@
   "php.format.rules.arrayInitializersWrap": "on_every_item",
   "php.format.rules.callParametersWrap": "on_every_item",
   "php.format.rules.addCommaAfterLastArrayElement": true,
+  "php.version": "8.3",
   "php.stubs": [
     "*",
     "zip",
