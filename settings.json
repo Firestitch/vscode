@@ -4,7 +4,8 @@
   "php.problems.scope": "all",
   "php.problems.exclude": {
     "backend/vendor/**": true,
-    "deploy/vendor/**": true
+    "deploy/vendor/**": true,
+    "/": [6606]
   },
   "php.format.codeStyle": "K&R",
   "php.format.rules.arrayInitializersNewLineAfterLastElement": true,
