@@ -44,6 +44,8 @@
     "editor.defaultFormatter": "dbaeumer.vscode-eslint",
   },
   "eslint.workingDirectories": [
+    "frontend/apps/app",
+    "frontend/apps/web",
     "frontend"
   ],
   "editor.codeActionsOnSave": {
