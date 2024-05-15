@@ -43,14 +43,15 @@
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "dbaeumer.vscode-eslint",
   },
-  "eslint.workingDirectories": [
-    "frontend/apps/app",
-    "frontend/apps/web",
-    "frontend"
-  ],
   "editor.codeActionsOnSave": {
     "source.fixAll": "never",
     "source.organizeImports": "explicit"
   },
-  "terminal.integrated.cwd": "${workspaceFolder}/frontend"
+  "terminal.integrated.cwd": "${workspaceFolder}/frontend",
+  "eslint.workingDirectories": [
+    "frontend/apps/app",
+    "frontend/apps/web",
+    "frontend/apps/common",
+    "frontend"
+  ],
 }
