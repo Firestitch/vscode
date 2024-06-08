@@ -55,4 +55,5 @@
     "frontend/apps/common",
     "frontend"
   ],
+  "barrelr.lineEnding": "LF"
 }
