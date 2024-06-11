@@ -29,7 +29,6 @@
   },
   "html.format.wrapAttributes": "preserve",
   "files.exclude": {
-    "framework/Refactor/**": true,
     "data/temp/**": true,
     "node_modules/**/*.php": true
   },
