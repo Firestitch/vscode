@@ -45,7 +45,8 @@
   },
   "editor.codeActionsOnSave": {
     "source.fixAll": "never",
-    "source.organizeImports": "explicit"
+    "source.organizeImports": "explicit",
+    "source.sortAndRemoveImports": "explicit"
   },
   "terminal.integrated.cwd": "${workspaceFolder}/frontend",
   "eslint.workingDirectories": [
