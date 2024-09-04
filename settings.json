@@ -50,7 +50,8 @@
   },
   "terminal.integrated.cwd": "${workspaceFolder}/frontend",
   "eslint.workingDirectories": [
-    { "pattern": "frontend/apps/*/" }
+    { "pattern": "frontend/apps/*/" },
+    "frontend/src"
   ],
   "barrelr.lineEnding": "LF"
 }
