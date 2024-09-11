@@ -16,6 +16,7 @@
   "php.format.rules.callParametersWrap": "onEveryItem",
   "php.format.rules.addCommaAfterLastArrayElement": true,
   "php.version": "8.3",
+  "php.inlayHints.parameters.enabled": false,
   "php.stubs": [
     "*",
     "zip",
