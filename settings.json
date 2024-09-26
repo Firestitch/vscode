@@ -54,5 +54,6 @@
     { "pattern": "frontend/apps/*/" },
     "frontend/src"
   ],
-  "barrelr.lineEnding": "LF"
+  "barrelr.lineEnding": "LF",
+  "workbench.colorTheme": "Default Dark Modern"
 }
